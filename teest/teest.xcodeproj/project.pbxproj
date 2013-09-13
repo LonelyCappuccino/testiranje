@@ -211,6 +211,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Tomaz Golob";
 				TargetAttributes = {
+					FCC0D81317E355540042143A = {
+						DevelopmentTeam = 7E24WZT4N3;
+					};
 					FCC0D83B17E355540042143A = {
 						TestTargetID = FCC0D81317E355540042143A;
 					};
@@ -392,6 +395,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "teest/teest-Prefix.pch";
 				INFOPLIST_FILE = "teest/teest-Info.plist";
@@ -406,6 +410,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "teest/teest-Prefix.pch";
 				INFOPLIST_FILE = "teest/teest-Info.plist";
